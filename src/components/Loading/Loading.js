@@ -1,13 +1,13 @@
 import React from "react";
-import { ThreeCircles } from "react-loader-spinner";
+import { InfinitySpin } from "react-loader-spinner";
 const Loading = ({
   size = 80,
   color = "#4fa94d",
   text = "Loading",
   showCircles = true,
-  circleSize = 100,
-  circleColor = "#4fa94d",
-  textColor = "green",
+  spinSize = 150,
+  spinColor = "#4fa94d",
+  textColor = "grey",
   textStyle = {},
 }) => {
   return (
@@ -23,17 +23,17 @@ const Loading = ({
       }}
     >
       {showCircles && (
-        <ThreeCircles
-          height={circleSize}
-          width={circleSize}
-          color={circleColor}
+        <InfinitySpin
+          height={spinSize}
+          width={spinSize}
+          color={spinColor}
           wrapperStyle={{}}
           wrapperClass=""
           visible={true}
-          ariaLabel="three-circles-rotating"
-          outerCircleColor=""
-          innerCircleColor=""
-          middleCircleColor=""
+          ariaLabel="infinity-spin"
+          outerSpinColor=""
+          innerSpinColor=""
+          middleSpinColor=""
         />
       )}
       <span
