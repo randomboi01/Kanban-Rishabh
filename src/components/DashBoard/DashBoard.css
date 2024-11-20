@@ -1,0 +1,97 @@
+.dashContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 20px; 
+  padding: 20px;
+  background-color: #f4f5f8;
+  min-height: 100vh;
+}
+
+.dashCardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 350px;
+  max-width: 500px;
+  flex: 0 0 auto;
+  width: 500px;
+  align-content: center;
+  gap: 10px;
+  background: #f4f5f8;
+  padding: 20px;
+  border-radius: 8px;
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+}
+
+
+.dashCardHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.leftView {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.leftView .cardTitle {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  font-weight: 200;
+}
+
+.rightView {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.rightView span {
+  letter-spacing: 2px;
+}
+
+.dashList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dashContainer::-webkit-scrollbar {
+  height: 10px;
+  position:fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.dashContainer::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.dashContainer::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .dashCardContainer {
+    min-width: 300px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .dashCardContainer {
+    min-width: 250px;
+  }
+}

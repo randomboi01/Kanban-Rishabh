@@ -1,0 +1,115 @@
+.cardContainer {
+    width: 100%;
+    border: 1px solid rgb(214, 213, 213);
+    color: #000000;
+    border-radius: 10px;
+    background: white;
+    font-size: 12px;
+    /* padding: 2%; */
+    padding: 15px 15px 10px 25px;
+    box-shadow: #f4f5f8;
+}
+
+.columnContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
+    /* height: 250px; */
+
+}
+
+.cardContainer>* {
+    font-size: 12px;
+    width: 100%;
+}
+
+.cardTags {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.cardTags .priority {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.cardTags .priority {
+    background-color: #f4f5f8;
+}
+
+.cardTags .status {
+    background-color: #f4f5f8;
+}
+
+.cardTags .tag {
+    background-color: #e0f7fa;
+    /* Background for the feature request */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.cardTags span {
+    font-size: 12px;
+    color: #7d7d7d;
+}
+
+.cardPriority,
+.cardStatus {
+    font-size: 12px;
+}
+
+.cardPriority {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardStatus {
+    padding: 5px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardFeature {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    width: 35%;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+
+.cardContent {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cardDetails {
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .cardContainer {
+        padding: 5%;
+    }
+}
