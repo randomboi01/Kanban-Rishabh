@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kanban-Rishabh/static/css/main.d717b011.css",
-    "main.js": "/Kanban-Rishabh/static/js/main.a3683f83.js",
+    "main.js": "/Kanban-Rishabh/static/js/main.67f14e1c.js",
     "static/media/Display.svg": "/Kanban-Rishabh/static/media/Display.0168095040354204011b596e30abf32e.svg",
     "static/media/Cancelled.svg": "/Kanban-Rishabh/static/media/Cancelled.360749f102ea2ac68b5841e9f9ff29dd.svg",
     "static/media/3 dot menu.svg": "/Kanban-Rishabh/static/media/3 dot menu.4caedb468f68b915626e0e35045257b3.svg",
@@ -19,10 +19,10 @@
     "static/media/Backlog.svg": "/Kanban-Rishabh/static/media/Backlog.97adf3356b7d2e775ef530f7aed206e0.svg",
     "static/media/To-do.svg": "/Kanban-Rishabh/static/media/To-do.c01d92afcffeef58b2cd9ae080df1f58.svg",
     "main.d717b011.css.map": "/Kanban-Rishabh/static/css/main.d717b011.css.map",
-    "main.a3683f83.js.map": "/Kanban-Rishabh/static/js/main.a3683f83.js.map"
+    "main.67f14e1c.js.map": "/Kanban-Rishabh/static/js/main.67f14e1c.js.map"
   },
   "entrypoints": [
     "static/css/main.d717b011.css",
-    "static/js/main.a3683f83.js"
+    "static/js/main.67f14e1c.js"
   ]
 }
