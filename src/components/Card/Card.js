@@ -18,7 +18,7 @@ const Card = ({ id, title, tag, status, priority, avatar }) => {
     "Done": <Icon name="done" />,
   };
 
-  const priorityOrder = ["High", "Medium", "Low", "NotSpecified", "Urgent"];
+  const priorityOrder = ["Urgent","High", "Medium", "Low", "NotSpecified"];
   const priorityIcons = {
     "High": <Icon name="highPriority" />,
     "Medium": <Icon name="mediumPriority" />,
@@ -28,7 +28,7 @@ const Card = ({ id, title, tag, status, priority, avatar }) => {
   };
 
   
-  const priorityLabel = priorityOrder[priority - 2] || "NotSpecified";
+  const priorityLabel = priorityOrder[priority-1] || "NotSpecified";
 
   return (
     <div className="cardContainer flex-gap-10" style={{ gap: "5px" }}>
